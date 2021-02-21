@@ -1,6 +1,6 @@
 # gerenciador-de-estabelecimentos-api
 
-- Repositório do Front-end: https://github.com/LukkzMaverick/gerenciador-de-estabelecimentos-fb
+- Repositório do Front-end: https://github.com/LukkzMaverick/gerenciador-estabelecimentos-fb
 
 # Pré-Requisitos
 
