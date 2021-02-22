@@ -54,7 +54,11 @@ module.exports = {
             }
 
             const {estabelecimentoId, empresaId} = req.params
-
+            const estabelecimentoBefore = await Estabelecimento.findOne({_id: estabelecimentoId})
+            if(empresaId !== estabelecimentoBefore.empresa){
+                estabelecimentoBefore.empresa = empresaId
+                await estabelecimentoBefore.save()
+            }
             let { nome, localizacaoId, nomeLocalizacao, endereco } = req.body
             let localizacao
             let estabelecimento
