@@ -5,7 +5,7 @@
 # Pré-Requisitos
 
  - [Node JS](https://nodejs.org/en/)
- - MongoDB Community Server(https://www.mongodb.com/try/download/community)
+ - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
 ## Instruções
 
